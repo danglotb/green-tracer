@@ -1,0 +1,783 @@
+===
+match
+---
+name: data [1653,1657]
+name: data [1710,1714]
+===
+match
+---
+name: head [1871,1875]
+name: head [1907,1911]
+===
+match
+---
+simple_stmt [1447,1548]
+simple_stmt [1447,1548]
+===
+match
+---
+name: self [855,859]
+name: self [855,859]
+===
+match
+---
+return_stmt [1972,1986]
+return_stmt [2096,2110]
+===
+match
+---
+suite [867,1987]
+suite [867,2111]
+===
+match
+---
+atom_expr [1922,1937]
+atom_expr [2014,2029]
+===
+match
+---
+name: htb_inner [1922,1931]
+name: htb_inner [2014,2023]
+===
+match
+---
+operator: , [1293,1294]
+operator: , [1293,1294]
+===
+match
+---
+atom_expr [1608,1624]
+atom_expr [1665,1681]
+===
+match
+---
+name: datum [1262,1267]
+name: datum [1262,1267]
+===
+match
+---
+operator: / [1877,1878]
+operator: / [1913,1914]
+===
+match
+---
+assert_stmt [1192,1231]
+assert_stmt [1192,1231]
+===
+match
+---
+name: htb [851,854]
+name: htb [851,854]
+===
+match
+---
+operator: = [1647,1648]
+operator: = [1704,1705]
+===
+match
+---
+atom_expr [1649,1658]
+atom_expr [1706,1715]
+===
+match
+---
+expr_stmt [1367,1379]
+expr_stmt [1367,1379]
+===
+match
+---
+assert_stmt [1240,1357]
+assert_stmt [1240,1357]
+===
+match
+---
+simple_stmt [1637,1673]
+simple_stmt [1694,1730]
+===
+match
+---
+suite [1434,1938]
+suite [1434,2062]
+===
+match
+---
+name: HeadTailBreakAlgoV0 [819,838]
+name: HeadTailBreakAlgoV1 [819,838]
+===
+match
+---
+name: results [1685,1692]
+name: results [1742,1749]
+===
+match
+---
+expr_stmt [1777,1830]
+expr_stmt [1780,1833]
+===
+match
+---
+name: data_length [1661,1672]
+name: data_length [1718,1729]
+===
+match
+---
+name: htb_inner [1418,1427]
+name: htb_inner [1418,1427]
+===
+match
+---
+simple_stmt [1240,1358]
+simple_stmt [1240,1358]
+===
+match
+---
+expr_stmt [1594,1624]
+expr_stmt [1651,1681]
+===
+match
+---
+trailer [1287,1301]
+trailer [1287,1301]
+===
+match
+---
+name: all [1247,1250]
+name: all [1247,1250]
+===
+match
+---
+operator: , [1203,1204]
+operator: , [1203,1204]
+===
+match
+---
+comparison [1812,1829]
+comparison [1815,1832]
+===
+match
+---
+arglist [1288,1300]
+arglist [1288,1300]
+===
+match
+---
+name: results [1367,1374]
+name: results [1367,1374]
+===
+match
+---
+atom_expr [1277,1301]
+atom_expr [1277,1301]
+===
+match
+---
+name: float [1295,1300]
+name: float [1295,1300]
+===
+match
+---
+suite [1898,1938]
+suite [1981,2062]
+===
+match
+---
+number: 0.40 [1893,1897]
+number: 0.40 [1927,1931]
+===
+match
+---
+name: data_length [1879,1890]
+name: data [1919,1923]
+===
+match
+---
+term [1649,1672]
+term [1706,1729]
+===
+match
+---
+operator: , [1267,1268]
+operator: , [1267,1268]
+===
+match
+---
+name: head [1932,1936]
+name: head [2024,2028]
+===
+match
+---
+simple_stmt [1777,1831]
+simple_stmt [1780,1834]
+===
+match
+---
+classdef [813,1987]
+classdef [813,2111]
+===
+match
+---
+trailer [1617,1623]
+trailer [1674,1680]
+===
+match
+---
+or_test [1251,1301]
+or_test [1251,1301]
+===
+match
+---
+name: datum [1306,1311]
+name: datum [1306,1311]
+===
+match
+---
+trailer [1870,1876]
+trailer [1906,1912]
+===
+match
+---
+name: datum [1812,1817]
+name: datum [1815,1820]
+===
+match
+---
+param [855,860]
+param [855,860]
+===
+match
+---
+name: head [1777,1781]
+name: head [1780,1784]
+===
+match
+---
+trailer [1692,1699]
+trailer [1749,1756]
+===
+match
+---
+name: data [1618,1622]
+name: data [1675,1679]
+===
+match
+---
+trailer [1699,1710]
+trailer [1756,1767]
+===
+match
+---
+name: datum [1288,1293]
+name: datum [1288,1293]
+===
+match
+---
+term [1867,1890]
+term [1903,1924]
+===
+match
+---
+name: data [1315,1319]
+name: data [1315,1319]
+===
+match
+---
+name: float [1608,1613]
+name: float [1665,1670]
+===
+match
+---
+name: data [1428,1432]
+name: data [1428,1432]
+===
+match
+---
+name: data [1957,1961]
+name: data [2081,2085]
+===
+match
+---
+comparison [1867,1897]
+comparison [1903,1931]
+===
+match
+---
+string: """  Original file found here: https://github.com/chad-m/head_tail_breaks_algorithm.git  Python implementation of the head/tail breaks algorithm for classifying heavy-tailed distributions.  Article reference: http://arxiv.org/ftp/arxiv/papers/1209/1209.2801.pdf  Example: pareto_data = [(1 / i)**1.16 for i in range(1,100)]  # pareto distribution: x_min=1, a=1.16 (80/20) htb_pareto = htb(pareto_data) print(htb_pareto) [0.03883742394002349, 0.177990388624465, 0.481845351678573]  JavaScript implementation for reference: function htb(data) {     var data_mean = data.reduce(function(a, b){return a + b})/data.length;     var head = data.filter(function(d){return d > data_mean});     console.log(data_mean);     while (head.length > 1 && head.length/data.length < 0.40) {         return htb(head);     }; }  """ [0,812]
+string: """  Original file found here: https://github.com/chad-m/head_tail_breaks_algorithm.git  Python implementation of the head/tail breaks algorithm for classifying heavy-tailed distributions.  Article reference: http://arxiv.org/ftp/arxiv/papers/1209/1209.2801.pdf  Example: pareto_data = [(1 / i)**1.16 for i in range(1,100)]  # pareto distribution: x_min=1, a=1.16 (80/20) htb_pareto = htb(pareto_data) print(htb_pareto) [0.03883742394002349, 0.177990388624465, 0.481845351678573]  JavaScript implementation for reference: function htb(data) {     var data_mean = data.reduce(function(a, b){return a + b})/data.length;     var head = data.filter(function(d){return d > data_mean});     console.log(data_mean);     while (head.length > 1 && head.length/data.length < 0.40) {         return htb(head);     }; }  """ [0,812]
+===
+match
+---
+comp_if [1809,1829]
+comp_if [1812,1832]
+===
+match
+---
+trailer [1250,1320]
+trailer [1250,1320]
+===
+match
+---
+name: sum [1649,1652]
+name: sum [1706,1709]
+===
+match
+---
+simple_stmt [1367,1405]
+simple_stmt [1367,1405]
+===
+match
+---
+argument [1251,1319]
+argument [1251,1319]
+===
+match
+---
+param [1428,1432]
+param [1428,1432]
+===
+match
+---
+name: append [1693,1699]
+name: append [1750,1756]
+===
+match
+---
+operator: < [1891,1892]
+operator: > [1925,1926]
+===
+match
+---
+file_input [0,1987]
+file_input [0,2111]
+===
+match
+---
+name: data_mean [1820,1829]
+name: data_mean [1823,1832]
+===
+match
+---
+name: int [1269,1272]
+name: int [1269,1272]
+===
+match
+---
+operator: , [859,860]
+operator: , [859,860]
+===
+match
+---
+operator: = [1606,1607]
+operator: = [1663,1664]
+===
+match
+---
+operator: = [1375,1376]
+operator: = [1375,1376]
+===
+match
+---
+name: data_mean [1637,1646]
+name: data_mean [1694,1703]
+===
+match
+---
+expr_stmt [1637,1672]
+expr_stmt [1694,1729]
+===
+match
+---
+trailer [1956,1962]
+trailer [2080,2086]
+===
+match
+---
+atom [1377,1379]
+atom [1377,1379]
+===
+match
+---
+trailer [1652,1658]
+trailer [1709,1715]
+===
+match
+---
+simple_stmt [0,813]
+simple_stmt [0,813]
+===
+match
+---
+parameters [854,866]
+parameters [854,866]
+===
+match
+---
+string: """         Applies the head/tail breaks algorithm to an array of data.          Params         ------         data : list             Array of data to apply ht-breaks          Returns         -------         results : list             List of data representing break points         """ [876,1162]
+string: """         Applies the head/tail breaks algorithm to an array of data.          Params         ------         data : list             Array of data to apply ht-breaks          Returns         -------         results : list             List of data representing break points         """ [876,1162]
+===
+match
+---
+atom_expr [1614,1623]
+atom_expr [1671,1680]
+===
+match
+---
+atom [1784,1830]
+atom [1787,1833]
+===
+match
+---
+name: data_length [1594,1605]
+name: data_length [1651,1662]
+===
+match
+---
+parameters [1427,1433]
+parameters [1427,1433]
+===
+match
+---
+name: len [1614,1617]
+name: len [1671,1674]
+===
+match
+---
+operator: = [1782,1783]
+operator: = [1785,1786]
+===
+match
+---
+sync_comp_for [1302,1319]
+sync_comp_for [1302,1319]
+===
+match
+---
+arglist [1262,1272]
+arglist [1262,1272]
+===
+match
+---
+atom_expr [1867,1876]
+atom_expr [1903,1912]
+===
+match
+---
+name: htb_inner [1947,1956]
+name: htb_inner [2071,2080]
+===
+match
+---
+name: len [1867,1870]
+name: len [1903,1906]
+===
+match
+---
+string: "All input values must be numeric." [1322,1357]
+string: "All input values must be numeric." [1322,1357]
+===
+match
+---
+name: data [1199,1203]
+name: data [1199,1203]
+===
+match
+---
+name: data [861,865]
+name: data [861,865]
+===
+match
+---
+name: results [1979,1986]
+name: results [2103,2110]
+===
+match
+---
+simple_stmt [1947,1963]
+simple_stmt [2071,2087]
+===
+match
+---
+operator: , [1320,1321]
+operator: , [1320,1321]
+===
+match
+---
+string: """             Inner ht breaks function for recursively computing the break points.             """ [1447,1547]
+string: """             Inner ht breaks function for recursively computing the break points.             """ [1447,1547]
+===
+match
+---
+atom_expr [1947,1962]
+atom_expr [2071,2086]
+===
+match
+---
+simple_stmt [1972,1987]
+simple_stmt [2096,2111]
+===
+match
+---
+string: "Input must not be empty." [1205,1231]
+string: "Input must not be empty." [1205,1231]
+===
+match
+---
+simple_stmt [1915,1938]
+simple_stmt [1998,2031]
+===
+match
+---
+funcdef [847,1987]
+funcdef [847,2111]
+===
+match
+---
+name: isinstance [1277,1287]
+name: isinstance [1277,1287]
+===
+match
+---
+atom_expr [1247,1320]
+atom_expr [1247,1320]
+===
+match
+---
+atom_expr [1251,1273]
+atom_expr [1251,1273]
+===
+match
+---
+name: data_mean [1700,1709]
+name: data_mean [1757,1766]
+===
+match
+---
+operator: > [1818,1819]
+operator: > [1821,1822]
+===
+match
+---
+trailer [1931,1937]
+trailer [2023,2029]
+===
+match
+---
+simple_stmt [1685,1711]
+simple_stmt [1742,1768]
+===
+match
+---
+funcdef [1414,1938]
+funcdef [1414,2062]
+===
+match
+---
+trailer [1261,1273]
+trailer [1261,1273]
+===
+match
+---
+operator: / [1659,1660]
+operator: / [1716,1717]
+===
+match
+---
+sync_comp_for [1791,1829]
+sync_comp_for [1794,1832]
+===
+match
+---
+simple_stmt [1192,1232]
+simple_stmt [1192,1232]
+===
+match
+---
+name: datum [1785,1790]
+name: datum [1788,1793]
+===
+match
+---
+name: datum [1795,1800]
+name: datum [1798,1803]
+===
+match
+---
+param [861,865]
+param [861,865]
+===
+match
+---
+name: data [1804,1808]
+name: data [1807,1811]
+===
+match
+---
+trailer [1613,1624]
+trailer [1670,1681]
+===
+match
+---
+atom_expr [1685,1710]
+atom_expr [1742,1767]
+===
+match
+---
+simple_stmt [876,1163]
+simple_stmt [876,1163]
+===
+match
+---
+testlist_comp [1785,1829]
+testlist_comp [1788,1832]
+===
+match
+---
+name: isinstance [1251,1261]
+name: isinstance [1251,1261]
+===
+match
+---
+simple_stmt [1594,1625]
+simple_stmt [1651,1682]
+===
+match
+---
+suite [841,1987]
+suite [841,2111]
+===
+update-node
+---
+name: HeadTailBreakAlgoV0 [819,838]
+replace HeadTailBreakAlgoV0 by HeadTailBreakAlgoV1
+===
+insert-tree
+---
+if_stmt [1560,1604]
+    comparison [1563,1576]
+        atom_expr [1563,1572]
+            name: len [1563,1566]
+            trailer [1566,1572]
+                name: data [1567,1571]
+        operator: < [1573,1574]
+        number: 2 [1575,1576]
+    suite [1577,1604]
+        simple_stmt [1594,1604]
+            return_stmt [1594,1603]
+                atom [1601,1603]
+to
+suite [1434,1938]
+at 1
+===
+insert-node
+---
+if_stmt [1900,2062]
+to
+suite [1434,1938]
+at 6
+===
+move-tree
+---
+comparison [1867,1897]
+    term [1867,1890]
+        atom_expr [1867,1876]
+            name: len [1867,1870]
+            trailer [1870,1876]
+                name: head [1871,1875]
+        operator: / [1877,1878]
+        name: data_length [1879,1890]
+    operator: < [1891,1892]
+    number: 0.40 [1893,1897]
+to
+if_stmt [1900,2062]
+at 0
+===
+move-tree
+---
+suite [1898,1938]
+    simple_stmt [1915,1938]
+        return_stmt [1915,1937]
+            atom_expr [1922,1937]
+                name: htb_inner [1922,1931]
+                trailer [1931,1937]
+                    name: head [1932,1936]
+to
+if_stmt [1900,2062]
+at 2
+===
+update-node
+---
+operator: < [1891,1892]
+replace < by >
+===
+insert-tree
+---
+simple_stmt [2047,2062]
+    return_stmt [2047,2061]
+        name: results [2054,2061]
+to
+suite [1898,1938]
+at 1
+===
+insert-node
+---
+atom_expr [1915,1924]
+to
+term [1867,1890]
+at 2
+===
+insert-node
+---
+atom_expr [1998,2030]
+to
+simple_stmt [1915,1938]
+at 0
+===
+insert-node
+---
+trailer [1918,1924]
+to
+atom_expr [1915,1924]
+at 1
+===
+insert-node
+---
+trailer [2013,2030]
+to
+atom_expr [1998,2030]
+at 2
+===
+update-node
+---
+name: data_length [1879,1890]
+replace data_length by data
+===
+move-tree
+---
+name: data_length [1879,1890]
+to
+trailer [1918,1924]
+at 0
+===
+move-tree
+---
+atom_expr [1922,1937]
+    name: htb_inner [1922,1931]
+    trailer [1931,1937]
+        name: head [1932,1936]
+to
+trailer [2013,2030]
+at 0
+===
+delete-node
+---
+return_stmt [1915,1937]
+===
+===
+delete-node
+---
+and_test [1849,1897]
+===
+===
+delete-node
+---
+while_stmt [1843,1938]
+===
