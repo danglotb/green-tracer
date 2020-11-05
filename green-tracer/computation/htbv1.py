@@ -24,7 +24,7 @@ function htb(data) {
 }
 
 """
-class HeadTailBreakAlgo():
+class HeadTailBreakAlgoV1():
 
     def htb(self, data):
         """
@@ -50,15 +50,21 @@ class HeadTailBreakAlgo():
             """
             Inner ht breaks function for recursively computing the break points.
             """
+            if len(data) < 2:
+                return []
+
             # Add mean to results
             data_length = float(len(data))
             data_mean = sum(data) / data_length
             results.append(data_mean)
+            head = [datum for datum in data if datum > data_mean]
 
             # Recursive call to get next break point
-            head = [datum for datum in data if datum > data_mean]
-            while len(head) > 1 and len(head) / data_length < 0.40:
-                return htb_inner(head)
+            if len(head) / len(data) > 0.40:
+                return results
+            else:
+                results.extends(htb_inner[head])
+                return results
 
         htb_inner(data)
 
