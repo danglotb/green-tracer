@@ -63,7 +63,7 @@ class HeadTailBreakAlgoV1():
             if len(head) / data_length > 0.40:
                 return results
             else:
-                results.extends(htb_inner[head])
+                results.extends(htb_inner(head))
                 return results
 
         htb_inner(data)
