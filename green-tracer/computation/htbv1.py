@@ -60,7 +60,7 @@ class HeadTailBreakAlgoV1():
             head = [datum for datum in data if datum > data_mean]
 
             # Recursive call to get next break point
-            if len(head) / len(data) > 0.40:
+            if len(head) / data_length > 0.40:
                 return results
             else:
                 results.extends(htb_inner[head])
