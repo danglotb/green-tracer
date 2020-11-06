@@ -1,4 +1,3 @@
-import sys
 """
 
 Original file found here: https://github.com/chad-m/head_tail_breaks_algorithm.git
