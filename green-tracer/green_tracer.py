@@ -1,6 +1,7 @@
 import inspect
 import sys
 import linecache
+import os
 
 class GreenTracer(object):
 
@@ -11,3 +12,8 @@ class GreenTracer(object):
         lineno = frame.f_lineno
         print('%s %s#%s:%d' % (filename, list(frame.f_globals.keys())[-1], function_name, lineno))
         return self.traceit
+
+if __name__ == '__main__':
+    sys.settrace(GreenTracer().traceit)
+    os.system(' '.join(sys.argv[1:]))
+    sys.settrace(None)
