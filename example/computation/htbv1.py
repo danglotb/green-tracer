@@ -69,3 +69,8 @@ class HeadTailBreakAlgoV1():
         htb_inner(data)
 
         return results
+
+if __name__ == "__main__":
+    with open('example/input/input', 'r') as input:
+        data = [int(x) for x in input.read().split('\n')]
+    HeadTailBreakAlgoV1().htb(data)

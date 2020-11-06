@@ -1,3 +1,4 @@
+import sys
 """
 
 Original file found here: https://github.com/chad-m/head_tail_breaks_algorithm.git
@@ -63,3 +64,8 @@ class HeadTailBreakAlgoV0():
         htb_inner(data)
 
         return results
+
+if __name__ == "__main__":
+    with open('example/input/input', 'r') as input:
+        data = [int(x) for x in input.read().split('\n')]
+    HeadTailBreakAlgoV0().htb(data)
