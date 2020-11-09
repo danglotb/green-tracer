@@ -8,4 +8,5 @@ mv result.csv output/result_v0.csv
 python3 green-tracer/green_tracer.py example/computation/htbv1.py > output/v1.trace
 python3 example/computation/htbv1_pyjouled.py
 mv result.csv output/result_v1.csv
-gumtree textdiff example/computation/htbv0.py example/computation/htbv1.py > output/text.diff
+gumtree textdiff example/computation/htbv0.py example/computation/htbv1.py > text.diff
+mv text.diff output/text.diff
