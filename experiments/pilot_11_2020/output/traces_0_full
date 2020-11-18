@@ -1,0 +1,478 @@
+<string>:__main__:<module>:1:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=['']
+<string>:__main__:<module>:1:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=['']
+<string>:__main__:<module>:3:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:1:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:1:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:StackOverflowError:1:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:StackOverflowError:1:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:StackOverflowError:2:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:StackOverflowError:2:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:5:StackOverflowError=<class 'stack.StackOverflowError'>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:5:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:5:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:6:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:14:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:18:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:21:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:24:
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:30:push=<function Stack.push at 0x7f7e9f0cf040>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:34:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:38:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>,peek=<function Stack.peek at 0x7f7e9f0c7a60>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:42:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>,peek=<function Stack.peek at 0x7f7e9f0c7a60>,is_empty=<function Stack.is_empty at 0x7f7e9f0cf160>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:45:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>,peek=<function Stack.peek at 0x7f7e9f0c7a60>,is_empty=<function Stack.is_empty at 0x7f7e9f0cf160>,is_full=<function Stack.is_full at 0x7f7e9f0cf1f0>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:49:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>,peek=<function Stack.peek at 0x7f7e9f0c7a60>,is_empty=<function Stack.is_empty at 0x7f7e9f0cf160>,is_full=<function Stack.is_full at 0x7f7e9f0cf1f0>,size=<function Stack.size at 0x7f7e9f0cf280>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:Stack:49:push=<function Stack.push at 0x7f7e9f0cf040>,pop=<function Stack.pop at 0x7f7e9f0cf0d0>,peek=<function Stack.peek at 0x7f7e9f0c7a60>,is_empty=<function Stack.is_empty at 0x7f7e9f0cf160>,is_full=<function Stack.is_full at 0x7f7e9f0cf1f0>,size=<function Stack.size at 0x7f7e9f0cf280>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:54:StackOverflowError=<class 'stack.StackOverflowError'>,Stack=<class 'stack.Stack'>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:103:StackOverflowError=<class 'stack.StackOverflowError'>,Stack=<class 'stack.Stack'>,test_stack=<function test_stack at 0x7f7e9f0c7940>
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:<module>:103:StackOverflowError=<class 'stack.StackOverflowError'>,Stack=<class 'stack.Stack'>,test_stack=<function test_stack at 0x7f7e9f0c7940>
+<string>:__main__:<module>:5:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>
+<string>:__main__:<module>:8:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>
+<string>:__main__:<module>:12:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>
+<string>:__main__:<module>:22:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>
+<string>:__main__:<module>:54:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>
+<string>:__main__:<module>:55:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>
+<string>:__main__:<module>:57:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>,expression=a+b*(c^d-e)^(f+g*h)-i
+<string>:__main__:<module>:58:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>,expression=a+b*(c^d-e)^(f+g*h)-i
+<string>:__main__:<module>:59:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>,expression=a+b*(c^d-e)^(f+g*h)-i
+<string>:__main__:infix_to_postfix:22:expression=a+b*(c^d-e)^(f+g*h)-i
+<string>:__main__:infix_to_postfix:30:expression=a+b*(c^d-e)^(f+g*h)-i
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:14:self,limit=21
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:15:self,limit=21
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
+<string>:__main__:infix_to_postfix:31:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[]
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:is_operand:8:char=a
+<string>:__main__:is_operand:9:char=a
+<string>:__main__:is_operand:9:char=a
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
+<string>:__main__:is_operand:8:char=+
+<string>:__main__:is_operand:9:char=+
+<string>:__main__:is_operand:9:char=+
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=[],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=[],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=[],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+'],data=+
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a'],char=+
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a'],char=b
+<string>:__main__:is_operand:8:char=b
+<string>:__main__:is_operand:9:char=b
+<string>:__main__:is_operand:9:char=b
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a'],char=b
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b'],char=b
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b'],char=*
+<string>:__main__:is_operand:8:char=*
+<string>:__main__:is_operand:9:char=*
+<string>:__main__:is_operand:9:char=*
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b'],char=*
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b'],char=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+']
+<string>:__main__:precedence:12:char=*
+<string>:__main__:precedence:18:char=*
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+']
+<string>:__main__:precedence:12:char=+
+<string>:__main__:precedence:18:char=+
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b'],char=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*'],data=*
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b'],char=*
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b'],char=(
+<string>:__main__:is_operand:8:char=(
+<string>:__main__:is_operand:9:char=(
+<string>:__main__:is_operand:9:char=(
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b'],char=(
+<string>:__main__:infix_to_postfix:39:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b'],char=(
+<string>:__main__:infix_to_postfix:40:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b'],char=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '('],data=(
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b'],char=(
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b'],char=c
+<string>:__main__:is_operand:8:char=c
+<string>:__main__:is_operand:9:char=c
+<string>:__main__:is_operand:9:char=c
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b'],char=c
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c'],char=c
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c'],char=^
+<string>:__main__:is_operand:8:char=^
+<string>:__main__:is_operand:9:char=^
+<string>:__main__:is_operand:9:char=^
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c'],char=^
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c'],char=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+<string>:__main__:precedence:12:char=^
+<string>:__main__:precedence:18:char=^
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+<string>:__main__:precedence:12:char=(
+<string>:__main__:precedence:18:char=(
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c'],char=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*', '('],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*', '('],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '('],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '(', '^'],data=^
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c'],char=^
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c'],char=d
+<string>:__main__:is_operand:8:char=d
+<string>:__main__:is_operand:9:char=d
+<string>:__main__:is_operand:9:char=d
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c'],char=d
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c', 'd'],char=d
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c', 'd'],char=-
+<string>:__main__:is_operand:8:char=-
+<string>:__main__:is_operand:9:char=-
+<string>:__main__:is_operand:9:char=-
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c', 'd'],char=-
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c', 'd'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(', '^']
+<string>:__main__:precedence:12:char=-
+<string>:__main__:precedence:18:char=-
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(', '^']
+<string>:__main__:precedence:12:char=^
+<string>:__main__:precedence:18:char=^
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:37:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '^'],postfix=['a', 'b', 'c', 'd'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '(', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '(']
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c', 'd', '^'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+<string>:__main__:precedence:12:char=-
+<string>:__main__:precedence:18:char=-
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+<string>:__main__:precedence:12:char=(
+<string>:__main__:precedence:18:char=(
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c', 'd', '^'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*', '('],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*', '('],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '('],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '(', '-'],data=-
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^'],char=-
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^'],char=e
+<string>:__main__:is_operand:8:char=e
+<string>:__main__:is_operand:9:char=e
+<string>:__main__:is_operand:9:char=e
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^'],char=e
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=e
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+<string>:__main__:is_operand:8:char=)
+<string>:__main__:is_operand:9:char=)
+<string>:__main__:is_operand:9:char=)
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+<string>:__main__:infix_to_postfix:39:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+<string>:__main__:infix_to_postfix:41:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+<string>:__main__:infix_to_postfix:42:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(', '-']
+<string>:__main__:infix_to_postfix:43:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '(', '-'],postfix=['a', 'b', 'c', 'd', '^', 'e'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '(', '-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '(']
+<string>:__main__:infix_to_postfix:42:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+<string>:__main__:infix_to_postfix:46:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '(']
+<string>:__main__:infix_to_postfix:48:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*']
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=)
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=^
+<string>:__main__:is_operand:8:char=^
+<string>:__main__:is_operand:9:char=^
+<string>:__main__:is_operand:9:char=^
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=^
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*']
+<string>:__main__:precedence:12:char=^
+<string>:__main__:precedence:18:char=^
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*']
+<string>:__main__:precedence:12:char=*
+<string>:__main__:precedence:18:char=*
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*'],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*'],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*'],data=^
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^'],data=^
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=^
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=(
+<string>:__main__:is_operand:8:char=(
+<string>:__main__:is_operand:9:char=(
+<string>:__main__:is_operand:9:char=(
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=(
+<string>:__main__:infix_to_postfix:39:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=(
+<string>:__main__:infix_to_postfix:40:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*', '^'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*', '^'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^'],data=(
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^', '('],data=(
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=(
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=f
+<string>:__main__:is_operand:8:char=f
+<string>:__main__:is_operand:9:char=f
+<string>:__main__:is_operand:9:char=f
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-'],char=f
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=f
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=+
+<string>:__main__:is_operand:8:char=+
+<string>:__main__:is_operand:9:char=+
+<string>:__main__:is_operand:9:char=+
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=+
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(']
+<string>:__main__:precedence:12:char=+
+<string>:__main__:precedence:18:char=+
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+<string>:__main__:precedence:12:char=(
+<string>:__main__:precedence:18:char=(
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=(,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*', '^', '('],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*', '^', '('],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^', '('],data=+
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^', '(', '+'],data=+
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=+
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=g
+<string>:__main__:is_operand:8:char=g
+<string>:__main__:is_operand:9:char=g
+<string>:__main__:is_operand:9:char=g
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f'],char=g
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=g
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=*
+<string>:__main__:is_operand:8:char=*
+<string>:__main__:is_operand:9:char=*
+<string>:__main__:is_operand:9:char=*
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=*
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+']
+<string>:__main__:precedence:12:char=*
+<string>:__main__:precedence:18:char=*
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+']
+<string>:__main__:precedence:12:char=+
+<string>:__main__:precedence:18:char=+
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=['+', '*', '^', '(', '+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=['+', '*', '^', '(', '+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^', '(', '+'],data=*
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['+', '*', '^', '(', '+', '*'],data=*
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=*
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=h
+<string>:__main__:is_operand:8:char=h
+<string>:__main__:is_operand:9:char=h
+<string>:__main__:is_operand:9:char=h
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g'],char=h
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=h
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+<string>:__main__:is_operand:8:char=)
+<string>:__main__:is_operand:9:char=)
+<string>:__main__:is_operand:9:char=)
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+<string>:__main__:infix_to_postfix:39:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+<string>:__main__:infix_to_postfix:41:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+<string>:__main__:infix_to_postfix:42:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+', '*']
+<string>:__main__:infix_to_postfix:43:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^', '(', '+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^', '(', '+']
+<string>:__main__:infix_to_postfix:42:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(', '+']
+<string>:__main__:infix_to_postfix:43:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '(', '+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^', '(', '+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^', '(']
+<string>:__main__:infix_to_postfix:42:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+<string>:__main__:infix_to_postfix:46:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^', '(']
+<string>:__main__:infix_to_postfix:48:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^', '('],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^', '(']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^']
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=)
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=-
+<string>:__main__:is_operand:8:char=-
+<string>:__main__:is_operand:9:char=-
+<string>:__main__:is_operand:9:char=-
+<string>:__main__:infix_to_postfix:35:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=-
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*', '^']
+<string>:__main__:precedence:12:char=-
+<string>:__main__:precedence:18:char=-
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*', '^']
+<string>:__main__:precedence:12:char=^
+<string>:__main__:precedence:18:char=^
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=^,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:37:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*', '^'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*', '^']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*']
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+', '*']
+<string>:__main__:precedence:12:char=-
+<string>:__main__:precedence:18:char=-
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+', '*']
+<string>:__main__:precedence:12:char=*
+<string>:__main__:precedence:18:char=*
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=*,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:37:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+', '*'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+', '*']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+']
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['+']
+<string>:__main__:precedence:12:char=-
+<string>:__main__:precedence:18:char=-
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=-,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:34:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:peek:36:self=['+']
+<string>:__main__:precedence:12:char=+
+<string>:__main__:precedence:18:char=+
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:precedence:19:char=+,dictionary={'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
+<string>:__main__:infix_to_postfix:37:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['+']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=[]
+<string>:__main__:infix_to_postfix:36:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+<string>:__main__:infix_to_postfix:38:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+'],char=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:24:self=[],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:26:self=[],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=[],data=-
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:push:28:self=['-'],data=-
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+'],char=-
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+'],char=i
+<string>:__main__:is_operand:8:char=i
+<string>:__main__:is_operand:9:char=i
+<string>:__main__:is_operand:9:char=i
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+'],char=i
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i'],char=i
+<string>:__main__:infix_to_postfix:49:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i'],char=i
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=['-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=['-']
+<string>:__main__:infix_to_postfix:50:expression=a+b*(c^d-e)^(f+g*h)-i,stack=['-'],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i'],char=i
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:30:self=['-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=['-']
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:pop:32:self=[]
+<string>:__main__:infix_to_postfix:49:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i', '-'],char=i
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:38:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:is_empty:40:self=[]
+<string>:__main__:infix_to_postfix:51:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i', '-'],char=i
+<string>:__main__:infix_to_postfix:51:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a', 'b', 'c', 'd', '^', 'e', '-', 'f', 'g', 'h', '*', '+', '^', '*', '+', 'i', '-'],char=i
+<string>:__main__:<module>:59:inspect=<module 'inspect' from '/usr/lib/python3.8/inspect.py'>,sys=<module 'sys' (built-in)>,linecache=<module 'linecache' from '/usr/lib/python3.8/linecache.py'>,os=<module 'os' from '/usr/lib/python3.8/os.py'>,argparse=<module 'argparse' from '/usr/lib/python3.8/argparse.py'>,importlib=<module 'importlib' from '/usr/lib/python3.8/importlib/__init__.py'>,GreenTracer=<class '__main__.GreenTracer'>,parser=ArgumentParser(prog='green_tracer.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True),args=Namespace(arguments='', output_path='experiments/pilot_11_2020/output/traces_0_full', path_to_script='/home/benjamin/workspace/PythonV0/data_structures/stacks/', script='infix_to_postfix_conversion.py'),tracer=<__main__.GreenTracer object at 0x7f7e9f0b4a90>,script_name=infix_to_postfix_conversion.py,path_to_script=/home/benjamin/workspace/PythonV0/data_structures/stacks/,arguments=[''],string=<module 'string' from '/usr/lib/python3.8/string.py'>,Stack=<class 'stack.Stack'>,is_operand=<function is_operand at 0x7f7e9f0c79d0>,precedence=<function precedence at 0x7f7e9f0c7af0>,infix_to_postfix=<function infix_to_postfix at 0x7f7e9f0c7b80>,expression=a+b*(c^d-e)^(f+g*h)-i

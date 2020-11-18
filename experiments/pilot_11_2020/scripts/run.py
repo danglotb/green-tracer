@@ -11,7 +11,7 @@ PREFIX_OUTPUT_PATH = 'experiments/pilot_11_2020/output/traces'
 
 PATH_VERSIONS = ['/home/benjamin/workspace/PythonV0', '/home/benjamin/workspace/Python']
 
-SCRIPTS = ['balanced_parentheses.py']
+SCRIPTS = ['infix_to_postfix_conversion.py']
 PATHS_TO_SCRIPT = ['data_structures/stacks/']
 
 def run_cmd(cmd):
