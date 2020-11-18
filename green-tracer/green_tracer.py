@@ -15,6 +15,19 @@ class GreenTracer(object):
         return filename.startswith('/usr/lib/python3.8') or \
             filename.startswith('<frozen ')
 
+    def get_locals_and_values(self, locals):
+        vars = []
+        for var in locals:
+            if not locals[var] == None and not var.startswith('__'):
+                try:
+                    vars.append('='.join([var, locals[var].str()]))
+                except AttributeError:
+                    try:
+                        vars.append('='.join([var, str(locals[var])]))
+                    except AttributeError:
+                        vars.append(var)
+        return vars
+
     def traceit(self, frame, event, arg):
         function_code = frame.f_code
         filename = function_code.co_filename
@@ -23,16 +36,7 @@ class GreenTracer(object):
         function_name = function_code.co_name
         lineno = frame.f_lineno
         name = frame.f_globals["__name__"]
-        vars = []
-        for var in frame.f_locals:
-            if not frame.f_locals[var] == None and not var.startswith('__'):
-                try:
-                    vars.append('='.join([var, frame.f_locals[var].str()]))
-                except AttributeError:
-                    try:
-                        vars.append('='.join([var, str(frame.f_locals[var])]))
-                    except AttributeError:
-                        vars.append(var)
+        vars = self.get_locals_and_values(frame.f_locals)
         if 'python_script_path' in frame.f_globals:
             filename = frame.f_globals['python_script_path']
         self.output_file.write('%s:%s:%s:%d:%s\n' % (filename, name, function_name, lineno, ','.join(vars)))
