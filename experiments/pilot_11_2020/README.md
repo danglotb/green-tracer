@@ -23,10 +23,9 @@ is checked before the process, while in `v0`, it is checked during the process.
 
 Omitting the check at the begin of `v1`, the algorithm starts as follow for both versions:
 
-#### [v0]()
+#### [v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L38)
 
 ```text
-<string>:__main__:infix_to_postfix:22:expression=a+b*(c^d-e)^(f+g*h)-i
 <string>:__main__:infix_to_postfix:30:expression=a+b*(c^d-e)^(f+g*h)-i
 /home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:14:self,limit=21
 /home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:15:self,limit=21
@@ -34,10 +33,9 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 /home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
 <string>:__main__:infix_to_postfix:31:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[]
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
-<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
 ```
 
-#### [v1]()
+#### [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L141)
 
 ```text
 <string>:__main__:infix_to_postfix:41:expression_str=a+b*(c^d-e)^(f+g*h)-i
@@ -47,13 +45,42 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 /home/benjamin/workspace/Python/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=10
 <string>:__main__:infix_to_postfix:42:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[]
 <string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
-<string>:__main__:infix_to_postfix:44:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
 ```
 
 Here, the main difference, is that the `stack` is constructed with the `len(expressions)`
-in `v0`, while it uses the default size in `v1`. Does it impact the rest of the algorithm?
+in `v0`, while it uses the default size in `v1`.
 
 ```diff
 - stack = Stack(len(expression))
 + stack = Stack()
+```
+#### [v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L44)
+
+```text
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:is_operand:8:char=a
+<string>:__main__:is_operand:9:char=a
+<string>:__main__:is_operand:9:char=a
+<string>:__main__:infix_to_postfix:34:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a
+<string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
+```
+
+#### [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L147)
+
+```text
+<string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
+<string>:__main__:infix_to_postfix:44:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:infix_to_postfix:45:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a
+<string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a
+```
+
+Here, we can see the call to the function `is_operand()` in `v0`, while in `v1`,
+both std functions `isalpha()` and `isdigit()` are calles.
+
+```diff
+- if is_operand(char):
++ if char.isalpha() or char.isdigit():
+  postfix.append(char)
 ```
