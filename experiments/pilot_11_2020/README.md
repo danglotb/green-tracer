@@ -23,7 +23,9 @@ is checked before the process, while in `v0`, it is checked during the process.
 
 Omitting the check at the begin of `v1`, the algorithm starts as follow for both versions:
 
-#### [v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L38)
+#### Initialization
+
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L38)
 
 ```text
 <string>:__main__:infix_to_postfix:30:expression=a+b*(c^d-e)^(f+g*h)-i
@@ -35,7 +37,7 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
 ```
 
-#### [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L141)
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L141)
 
 ```text
 <string>:__main__:infix_to_postfix:41:expression_str=a+b*(c^d-e)^(f+g*h)-i
@@ -54,7 +56,9 @@ in `v0`, while it uses the default size in `v1`.
 - stack = Stack(len(expression))
 + stack = Stack()
 ```
-#### [v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L44)
+#### First round of the loop
+
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L44)
 
 ```text
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
@@ -67,7 +71,7 @@ in `v0`, while it uses the default size in `v1`.
 <string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
 ```
 
-#### [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L147)
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L147)
 
 ```text
 <string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
