@@ -22,9 +22,20 @@ class GreenTracer(object):
             return self.traceit
         function_name = function_code.co_name
         lineno = frame.f_lineno
+        name = frame.f_globals["__name__"]
+        vars = []
+        for var in frame.f_locals:
+            if not frame.f_locals[var] == None and not var.startswith('__'):
+                try:
+                    vars.append('='.join([var, frame.f_locals[var].str()]))
+                except AttributeError:
+                    try:
+                        vars.append('='.join([var, str(frame.f_locals[var])]))
+                    except AttributeError:
+                        vars.append(var)
         if 'python_script_path' in frame.f_globals:
             filename = frame.f_globals['python_script_path']
-        self.output_file.write('%s %s:%d\n' % (filename, function_name, lineno))
+        self.output_file.write('%s:%s:%s:%d:%s\n' % (filename, name, function_name, lineno, ','.join(vars)))
         return self.traceit
 
     def close(self):
