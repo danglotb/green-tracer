@@ -43,7 +43,6 @@ class GreenTracer2(object):
         function_name = function_code.co_name
         lineno = frame.f_lineno
         name = frame.f_globals["__name__"]
-        source_lines, starting_line_no = self.get_source_line(function_code)
         if 'python_script_path' in frame.f_globals:
             filename = frame.f_globals['python_script_path']
         vars = self.get_locals_and_values(frame.f_locals)

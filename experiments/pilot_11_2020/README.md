@@ -19,13 +19,13 @@ The `webdiff` by gumtree is the following:
 IMO, the most impactful changes, is that in `v1`, the balance of the parenthesis
 is checked before the process, while in `v0`, it is checked during the process.
 
-### Traces
+### Traces V1
 
 Omitting the check at the begin of `v1`, the algorithm starts as follow for both versions:
 
 #### Initialization
 
-[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L38)
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v1#L38)
 
 ```text
 <string>:__main__:infix_to_postfix:30:expression=a+b*(c^d-e)^(f+g*h)-i
@@ -37,7 +37,7 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
 ```
 
-[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L141)
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v1#L141)
 
 ```text
 <string>:__main__:infix_to_postfix:41:expression_str=a+b*(c^d-e)^(f+g*h)-i
@@ -58,7 +58,7 @@ in `v0`, while it uses the default size in `v1`.
 ```
 #### First round of the loop
 
-[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_full#L44)
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v1#L44)
 
 ```text
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
@@ -71,7 +71,7 @@ in `v0`, while it uses the default size in `v1`.
 <string>:__main__:infix_to_postfix:33:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+
 ```
 
-[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_full#L147)
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v1#L147)
 
 ```text
 <string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
@@ -87,4 +87,58 @@ both std functions `isalpha()` and `isdigit()` are calles.
 - if is_operand(char):
 + if char.isalpha() or char.isdigit():
   postfix.append(char)
+```
+
+### Traces V2
+
+#### Initialization
+
+In the `v2` of `green-tracer`, the tracer is injected within the code instead of
+letting `green-tracer` executes the code. In this new version of `green-tracer`,
+we have the path of the file containing the code, the modules and the function.
+We have also the code executed.
+
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v2#L2)
+
+```text
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:32 {    stack = Stack(len(expression))} (expression=a+b*(c^d-e)^(f+g*h)-i)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:14 {    def __init__(self, limit: int = 10):} (self,limit=21)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:15 {        self.stack = []} (self,limit=21)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=21)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=21)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:33 {    postfix = []} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[])
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:34 {    for char in expression:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[])
+```
+
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v2#L101)
+
+```text
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:43 {    stack = Stack()} (expression_str=a+b*(c^d-e)^(f+g*h)-i)
+/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:14 {    def __init__(self, limit: int = 10):} (self,limit=10)
+/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:15 {        self.stack = []} (self,limit=10)
+/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
+/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:44 {    postfix = []} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[])
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[])
+```
+
+#### First round of the loop
+
+[v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v1#L9)
+
+```text
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:35 {        if is_operand(char):} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:10 {def is_operand(char):} (char=a)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:36 {            postfix.append(char)} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:34 {    for char in expression:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
+```
+
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v1#L108)
+
+```text
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:46 {        if char.isalpha() or char.isdigit():} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:47 {            postfix.append(char)} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
 ```
