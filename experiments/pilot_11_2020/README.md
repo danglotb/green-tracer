@@ -29,10 +29,10 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 
 ```text
 <string>:__main__:infix_to_postfix:30:expression=a+b*(c^d-e)^(f+g*h)-i
-/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:14:self,limit=21
-/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:15:self,limit=21
-/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
-/home/benjamin/workspace/PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
+PythonV0/data_structures/stacks/stack.py:stack:__init__:14:self,limit=21
+PythonV0/data_structures/stacks/stack.py:stack:__init__:15:self,limit=21
+PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
+PythonV0/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=21
 <string>:__main__:infix_to_postfix:31:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[]
 <string>:__main__:infix_to_postfix:32:expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
 ```
@@ -41,10 +41,10 @@ Omitting the check at the begin of `v1`, the algorithm starts as follow for both
 
 ```text
 <string>:__main__:infix_to_postfix:41:expression_str=a+b*(c^d-e)^(f+g*h)-i
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:stack:__init__:14:self,limit=10
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:stack:__init__:15:self,limit=10
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=10
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=10
+Python/data_structures/stacks/stack.py:stack:__init__:14:self,limit=10
+Python/data_structures/stacks/stack.py:stack:__init__:15:self,limit=10
+Python/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=10
+Python/data_structures/stacks/stack.py:stack:__init__:16:self=[],limit=10
 <string>:__main__:infix_to_postfix:42:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[]
 <string>:__main__:infix_to_postfix:43:expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[]
 ```
@@ -113,13 +113,13 @@ PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to
 [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v2#L101)
 
 ```text
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:43 {    stack = Stack()} (expression_str=a+b*(c^d-e)^(f+g*h)-i)
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:14 {    def __init__(self, limit: int = 10):} (self,limit=10)
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:15 {        self.stack = []} (self,limit=10)
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
-/home/benjamin/workspace/Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:44 {    postfix = []} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[])
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[])
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:43 {    stack = Stack()} (expression_str=a+b*(c^d-e)^(f+g*h)-i)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:14 {    def __init__(self, limit: int = 10):} (self,limit=10)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:15 {        self.stack = []} (self,limit=10)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:__init__:16 {        self.limit = limit} (self=[],limit=10)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:44 {    postfix = []} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[])
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[])
 ```
 
 #### First round of the loop
@@ -127,18 +127,18 @@ PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to
 [v0](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v1#L9)
 
 ```text
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:35 {        if is_operand(char):} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:10 {def is_operand(char):} (char=a)
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:36 {            postfix.append(char)} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
-/home/benjamin/workspace/PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:34 {    for char in expression:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:35 {        if is_operand(char):} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:10 {def is_operand(char):} (char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:is_operand:11 {    return char in string.ascii_letters or char in string.digits} (char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:36 {            postfix.append(char)} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:34 {    for char in expression:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
 ```
 
 [v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v1#L108)
 
 ```text
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:46 {        if char.isalpha() or char.isdigit():} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:47 {            postfix.append(char)} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
-/home/benjamin/workspace/Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:46 {        if char.isalpha() or char.isdigit():} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:47 {            postfix.append(char)} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
 ```
