@@ -142,3 +142,50 @@ Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_p
 Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:47 {            postfix.append(char)} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=[],char=a)
 Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:45 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=a)
 ```
+
+Could we say that we have a doubt that the changes here, reduce the energy consumption
+because the traces is smaller ?
+
+#### Round of the loop
+
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_0_v0#L15)
+
+```text
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:37 {        elif char not in {"(", ")"}:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:38 {            while not stack.is_empty() and precedence(char) <= precedence(stack.peek()):} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:38 {    def is_empty(self) -> bool:} (self=[])
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:40 {        return not bool(self.stack)} (self=[])
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:40 {        return not bool(self.stack)} (self=[])
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:40 {            stack.push(char)} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:push:24 {    def push(self, data):} (self=[],data=+)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:push:26 {        if len(self.stack) >= self.limit:} (self=[],data=+)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:push:28 {        self.stack.append(data)} (self=[],data=+)
+PythonV0/data_structures/stacks/stack.py:data_structures.stacks.stack:push:28 {        self.stack.append(data)} (self=['+'],data=+)
+PythonV0/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:34 {    for char in expression:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a'],char=+)
+```
+
+[v1](https://github.com/danglotb/green-tracer/blob/master/experiments/pilot_11_2020/output/traces_1_v1#L108)
+
+```text
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:50 {        elif char == "(":} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:52 {        elif char == ")":} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:57 {            while not stack.is_empty() and precedence(char) <= precedence(stack.peek()):} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:38 {    def is_empty(self) -> bool:} (self=[])
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:40 {        return not bool(self.stack)} (self=[])
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:is_empty:40 {        return not bool(self.stack)} (self=[])
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:59 {            stack.push(char)} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:push:24 {    def push(self, data):} (self=[],data=+)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:push:26 {        if len(self.stack) >= self.limit:} (self=[],data=+)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:push:28 {        self.stack.append(data)} (self=[],data=+)
+Python/data_structures/stacks/stack.py:data_structures.stacks.stack:push:28 {        self.stack.append(data)} (self=['+'],data=+)
+Python/data_structures/stacks/infix_to_postfix_conversion.py:__main__:infix_to_postfix:47 {    for char in expression_str:} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=['+'],postfix=['a'],char=+)
+```
+
+The diff in the trace is at the beginning (omitting the path for brevity):
+
+```text
+- __main__:infix_to_postfix:37 {        elif char not in {"(", ")"}:} (expression=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
++ __main__:infix_to_postfix:50 {        elif char == "(":} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
++ __main__:infix_to_postfix:52 {        elif char == ")":} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+__main__:infix_to_postfix:57 {            while not stack.is_empty() and precedence(char) <= precedence(stack.peek()):} (expression_str=a+b*(c^d-e)^(f+g*h)-i,stack=[],postfix=['a'],char=+)
+```
